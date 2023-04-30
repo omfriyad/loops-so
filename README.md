@@ -15,12 +15,12 @@ client = LoopsClinet('YOUR-API-KEY')
 #### Create/Add
 ```
 client.create( 
-    email="adam@loops.so",
-    firstName="Adam",
-    lastName="Kaczmarek",
-    favoriteColor="blue",
-    userGroup="Founders",
-    source="Signup form Service"
+    email='adam@loops.so',
+    firstName='Adam',
+    lastName='Kaczmarek',
+    favoriteColor='blue',
+    userGroup='Founders',
+    source='Signup form Service'
     )
 
 ```
@@ -28,30 +28,30 @@ client.create(
 #### Update
 ```
 client.update( 
-    email="adam@loops.so",
-    firstName="Adam",
-    lastName="Kaczmarek",
-    favoriteColor="blue",
-    userGroup="Founders",
-    source="Signup form Service"
+    email='adam@loops.so',
+    firstName='Adam',
+    lastName='Kaczmarek',
+    favoriteColor='blue',
+    userGroup='Founders',
+    source='Signup form Service'
     )
 
 ```
 
 #### Find
 ```
-client.find(email="adam@loops.so", user_id="SomeUserId")
+client.find(email='adam@loops.so', user_id='SomeUserId')
 
 ```
 #### Delete
 ```
-client.delete(email="adam@loops.so")
+client.delete(email='adam@loops.so')
 
 ```
 
 #### Send
 ```
-client.send(email="adam@loops.so", event_name="conversion")
+client.send(email='adam@loops.so', event_name='conversion')
 
 ```
 

@@ -55,4 +55,3 @@ client.delete(email='adam@loops.so')
 client.send(email='adam@loops.so', event_name='conversion')
 
 ```
-

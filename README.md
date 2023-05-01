@@ -1,12 +1,15 @@
 ## Loops
-[PyPI 0.0.1](https://pypi.org/project/loopsso/0.0.1/)
+[PyPI 0.0.2](https://pypi.org/project/loopsso/0.0.2/)
 
 A convenient Python wrapper for the [Lopps](https://loops.so/) API.
 - API docs: [https://tryloops.notion.site/API-5b453a52dd7c4b419aa4647410de9770](https://tryloops.notion.site/API-5b453a52dd7c4b419aa4647410de9770)
 
-### Examples
-
 #### Setup
+```python
+pip install loopsso
+```
+#### Examples
+
 ```
 from loopsso import LoopsClient
 client = LoopsClinet('YOUR-API-KEY')
